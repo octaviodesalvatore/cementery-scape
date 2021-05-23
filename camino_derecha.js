@@ -1,0 +1,12 @@
+    function camino_derecha(){
+    background(pasillo2,width,height)
+    personaje.show();
+
+    // posicionar el personaje
+    numberPasillos1++;
+    if(numberPasillos1==1){
+        personaje.setX(550);
+        personaje.setY(600);
+        // console.log(numberPasillos1)
+    }
+}
